@@ -60,6 +60,8 @@ namespace urlfuzz
                 Console.WriteLine("An error occurred while loading the file: " + ex.Message);
             }
 
+            Console.WriteLine("Fuzzing complete!");
+
             Console.ReadLine();
         }
     }
